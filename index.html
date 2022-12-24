@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Employee Project</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="titleOne">Filter ui cards via their profession.</div> 
+
+   <form>
+   <select id="selectProfession">
+    <option value="Profession" selected> Profession</option>
+    <option value="developer"> Developer</option>
+    <option value="admin"> Admin </option>
+   </select>
+   </form>
+
+   <section id="cards">
+
+    <div class="card"><span>1. </span><span>Name : John</span><span>Profession : Developer</span><span>Age : 18</span></div>
+    
+    <div class="card"><span>2. </span><span>Name : Jack</span><span>Profession : Developer</span><span>Age : 20</span></div>
+
+    <div class="card"><span>3. </span><span>Name : Karen</span><span>Profession : Admin</span><span>Age : 19</span></div>
+
+   </section>
+
+   <button type="button" id="filterBtn"> Filter</button>
+
+
+   <div id="titleTwo">Add a new User</div> 
+
+   <form id="addPerson">
+
+    <label for="nameInput">Enter Name</label>
+    <label for="professionInput">Enter Profession</label>
+    <label for="ageInput">Enter Age</label>
+
+    <input type="text" id="nameInput">
+    <input type="text" id="professionInput">
+    <input type="text" id="ageInput">
+
+   </form>
+
+   <button type="button" id="addUserBtn">Add User</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
